@@ -3,7 +3,7 @@
 /**
  * main - Prints "message" to standard error message
  *
- * Return 1 Always
+ * Return: (1) Always
  */
 int main(void)
 {
