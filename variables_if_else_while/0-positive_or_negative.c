@@ -27,5 +27,6 @@ int main(void)
 		{
 			printf("is positive");
 		}
+	}
 	return (0);
 }
