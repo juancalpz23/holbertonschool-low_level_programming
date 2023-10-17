@@ -2,7 +2,7 @@
 /**
  * main - Print "_putchar" followed by a new line
  *
- * Result: 0 Success 1 Error
+ * Result: 0 Success
  **/
 int main(void)
 {
