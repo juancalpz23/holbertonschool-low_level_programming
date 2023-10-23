@@ -4,7 +4,7 @@
  *
  *@n: Value to be changed
  *
- *Return: 0 Success
+ *Return: Pointer Value
 **/
 void reset_to_98(int *n)
 {
