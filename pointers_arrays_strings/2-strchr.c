@@ -11,6 +11,7 @@ char *_strchr(char *s, char c)
 {
 	char *ptr;
 	int i;
+	*myNull = '\0';
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -20,5 +21,5 @@ char *_strchr(char *s, char c)
 			return (ptr);
 		}
 	}
-	return ('\0');
+	return (myNull);
 }
