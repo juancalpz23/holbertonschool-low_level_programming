@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - Prints its name
  *
@@ -10,8 +9,10 @@
  **/
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-	printf("%s\n", argv[0]);
+	int i = 0;
+
+	if (i < argc)
+	printf("%s\n", argv[i]);
 
 	return (0);
 }
