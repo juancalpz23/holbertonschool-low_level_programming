@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		total = atoi(argv[1]) * atoi(argv[2]);
+		total = _atoi(argv[1]) * _atoi(argv[2]);
 		printf("%d\n", total);
 		return (0);
 	}
