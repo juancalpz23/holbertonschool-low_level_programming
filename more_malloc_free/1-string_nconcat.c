@@ -8,7 +8,7 @@
  *
  * Return: Null if failed or new pointer to array
  **/
-char *strin+nconcat(char *s1, char *s2, unsigned it n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ar;
 	unsigned int i, l = n;
@@ -19,7 +19,7 @@ char *strin+nconcat(char *s1, char *s2, unsigned it n)
 	}
 	if (s2 == NULL)
 	{
-		s2 == "";
+		s2 = "";
 	}
 	for (i = 0; s1[i]; i++)
 	{
@@ -32,7 +32,7 @@ char *strin+nconcat(char *s1, char *s2, unsigned it n)
 		return (NULL);
 	}
 	l = 0;
-	for (i = 0; s[i]; i++)
+	for (i = 0; s1[i]; i++)
 	{
 		ar[l++] = s1[i];
 	}
